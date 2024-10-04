@@ -5,15 +5,15 @@ import Navbar from './Navbar'
 const Layout = () => {
   return (
     <div>
-     <Navbar/>
+      <Navbar/>
 
-      <main>
+      <main className='pl-24 pt-2'>
         <Outlet /> 
       </main>
     
-      <footer>
+      {/* <footer>
         <p >All rights reserved.</p>
-      </footer>
+      </footer> */}
     </div>
   )
 }

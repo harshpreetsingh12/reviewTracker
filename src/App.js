@@ -7,9 +7,13 @@ import NoPage from './containers/404Page/NoPage';
 import Dashboard from './containers/dashboard/Dashboard';
 import Layout from './containers/Layout/Layout';
 
+// importing icons
+import "./iconsFontAwesome.js"
 const AppWrapper = styled.div`
   background-color: ${({ theme }) => theme.background};
   color: ${({ theme }) => theme.text};
+  height:100vh;
+  width:100vw;
 `;
 
 function App() {
