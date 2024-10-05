@@ -29,7 +29,7 @@ export const NavBarWrap = styled.div`
 export const StaticWallWrapper = styled.div`
     height: 20vh;
     width: 100%;
-    background:linear-gradient(94deg, #00a77c, #122d2e, #f4673d, #02052d);
+    background:linear-gradient(94deg, #014a37, #122d2e, #4f1800, #02052d);
     z-index: 0;
     color:white;
     position:fixed;
