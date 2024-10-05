@@ -1,16 +1,14 @@
 import React from 'react'
-import { useDispatch } from 'react-redux';
-import { toggleTheme } from '../../reduxStore/actionsReducers/themeReducer/themeActions';
+import UserCountChart from './dashboardComponents/UserCountChart';
+import { DashboardWrapper } from './DashboardStyleData';
 
-const Dashboard = ({}) => {
-    const dispatch= useDispatch()
+const Dashboard = () => {
   
     return (
-        <section>
-            <h1>Hello, Dashboard !</h1>
-            <button onClick={() => dispatch(toggleTheme())}>Toggle Theme</button>
-            
-        </section>
+        <DashboardWrapper>
+            <h1>Hello, $ User !</h1>
+            {/* <UserCountChart/> */}
+        </DashboardWrapper>
     )
 }
 

@@ -20,12 +20,6 @@ const SearchBar = () => {
     setSearchTerm(event.target.value);
   };
 
-  const handleSearch = () => {
-    console.log('Searching for:', searchTerm);
-    // Add your search logic here
-  };
-
-
   return (
     <OuterSearchBar className="relative">
       <input

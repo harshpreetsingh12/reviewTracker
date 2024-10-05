@@ -23,7 +23,7 @@ const Navbar = () => {
           </div>
           {pathIcons.map((element) => {
             return (
-              <NavItem>
+              <NavItem key={element.name}>
                 <FontAwesomeIcon icon={element.icon} />
               </NavItem>
             );

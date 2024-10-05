@@ -32,7 +32,6 @@ const StaticWall = () => {
             <FlexContainerCol className="items-baseline">
                 <SmParaText className='font-normal px-4 flex w-full items-center'>Harshpreet singh
                     <FontAwesomeIcon icon={'angle-down'} size="sm" className="ml-auto"/>
-
                 </SmParaText>
                 <SmParaText className='px-4'>Harshpreets362@gmail.com</SmParaText>
             </FlexContainerCol>
