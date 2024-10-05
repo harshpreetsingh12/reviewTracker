@@ -19,7 +19,7 @@ const StaticWall = () => {
         <SearchBar />
         <FlexContainer>
           <div
-            className="cursor-pointer w-10 mr-3 text-center "
+            className="cursor-pointer w-10 mr-3 text-center z-10 "
             onClick={() => dispatch(toggleTheme())}
           >
             <FontAwesomeIcon icon={theme.theme === "dark" ? "sun" : "moon"} />

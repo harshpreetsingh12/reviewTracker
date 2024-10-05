@@ -9,6 +9,5 @@ export const getFormattedDate =_=>{
     year: 'numeric', 
     }).format(currentDate);
 
-    console.log(formattedDate);
     return formattedDate
 }
