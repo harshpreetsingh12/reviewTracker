@@ -1,5 +1,6 @@
 import styled from "styled-components";
 
+
 export const NavItem = styled.div`
   display:flex;
   align-items:center;
@@ -25,11 +26,13 @@ export const NavBarWrap = styled.div`
     backdrop-filter: blur(25px);
 `;
 
-export const StaticWall = styled.div`
-    height: 17vh;
+export const StaticWallWrapper = styled.div`
+    height: 20vh;
     width: 100%;
-    background:linear-gradient(138deg, #0e1d56, #122d2e, #f4673d, #02052d);
+    background:linear-gradient(94deg, #00a77c, #122d2e, #f4673d, #02052d);
     z-index: 0;
+    color:white;
+    position:fixed;
 `;
 
 export const pathIcons=[
@@ -46,6 +49,11 @@ export const pathIcons=[
   {
     name:'Charts',
     icon:'credit-card',
+    path:'/'
+  },
+  {
+    name:'User',
+    icon:'user',
     path:'/'
   },
 ]
