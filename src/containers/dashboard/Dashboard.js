@@ -1,5 +1,5 @@
 import React from 'react'
-import LineChart from './dashboardComponents/LineChart';
+
 import { DashboardWrapper } from './DashboardStyleData';
 import DashBoardUpperBoard from './DashBoardUpperBoard';
 import {FlexContainerCol } from '../../constants/GlobalStyleComp';
@@ -18,7 +18,7 @@ const Dashboard = () => {
                 </FlexContainerCol>
                 <DashBoardRightBoard/>
             </div>
-            {/* <LineChart/> */}
+            
         </DashboardWrapper>
     )
 }
