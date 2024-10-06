@@ -27,12 +27,15 @@ export const NavBarWrap = styled.div`
 `;
 
 export const StaticWallWrapper = styled.div`
-    height: 20vh;
+    height: 150px;
     width: 100%;
-    background:linear-gradient(94deg, #014a37, #122d2e, #4f1800, #02052d);
+    // background:linear-gradient(94deg, #014a37, #122d2e, #4f1800, #02052d);
     z-index: 0;
     color:white;
     position:fixed;
+    background: linear-gradient(135deg, #00c1d4, #1b2f41 25%, #1b2f41 50%, #ff4d3d 75%, #d458ff);
+    background-color: #1b2f41; /* Dark background to match */
+    background-blend-mode: screen;
 `;
 
 export const pathIcons=[
