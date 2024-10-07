@@ -1,7 +1,7 @@
 import React, { useEffect, useRef } from "react";
 import { select, scalePoint, scaleLinear, axisBottom, axisLeft, line, curveMonotoneX } from "d3";
 
-// dummy code to render d3 chart will aanalyze on this
+// dummy code to render d3 chart will aanalyze on
 const UserDashBoardChart = () => {
   const svgRef = useRef();
 
@@ -22,7 +22,7 @@ const UserDashBoardChart = () => {
 
     // Set up dimensions and margins
     const margin = { top: 40, right: 40, bottom: 40, left: 40 };
-    const width = 1000 - margin.left - margin.right;
+    const width = 700 - margin.left - margin.right;
     const height = 400 - margin.top - margin.bottom;
 
     // Select the SVG element and clear previous contents
